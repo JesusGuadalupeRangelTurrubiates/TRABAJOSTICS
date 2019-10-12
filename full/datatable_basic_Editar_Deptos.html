@@ -1018,6 +1018,13 @@
 								<li class="nav-item"><a href="datatable_styling.html" class="nav-link">Registrar</a></li>
 								<li class="nav-item"><a href="datatable_basic_Editar.html" class="nav-link">Editar</a></li>
 
+								<li class="nav-item  nav-item-expanded nav-item-open">
+							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Vacaciones</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
+								<li class="nav-item"><a href="VacacionesListado.html" class="nav-link active">Listado</a></li>
+
+								<li class="nav-item"><a href="VacacionesEditar.html" class="nav-link">Editar</a></li>
+
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Departamentos</div> <i class="icon-menu" title="Tables"></i></li>
 						<li class="nav-item nav-item-submenu">
 
@@ -1028,6 +1035,16 @@
 								<li class="nav-item"><a href="datatable_basicDeptos.html" class="nav-link active">Listado</a></li>
 								<li class="nav-item"><a href="datatable_stylingDeptos.html" class="nav-link">Registrar</a></li>
 								<li class="nav-item"><a href="datatable_basic_Editar_Deptos.html" class="nav-link">Editar</a></li>
+
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Empresas</div> <i class="icon-menu" title="Tables"></i></li>
+						<li class="nav-item nav-item-submenu">
+
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Empresas</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
+								<li class="nav-item"><a href="EmpresasListado.html" class="nav-link active">Listado</a></li>
+								<li class="nav-item"><a href="EmpresasRegistro.html" class="nav-link">Registrar</a></li>
+								<li class="nav-item"><a href="EmpresaEditar.html" class="nav-link">Editar</a></li>
 
 								<!-- puesto por rangel
 								<li class="nav-item"><a href="datatable_sorting.html" class="nav-link">Sorting options</a></li>
@@ -1358,7 +1375,7 @@
 						<thead>
 							<tr>
 								<th></th>
-								<th></th>
+								
 						     	<th>ID Depto</th>
 								<th>Nombre Depto</th>
 								<th>Numero de contacto</th>
@@ -1371,8 +1388,13 @@
 						</thead>
 						<tbody>
 							<tr>
-									<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_form_horizontal">Editar
-								<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_onhidden">Borrar
+
+								<div class="col-md-3 col-sm-4">
+								<div class="d-flex align-items-right">
+								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
+								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
+
+								
 								<td>1212</td>
 								<td>Tesoreria</td>
 								<td>111222333</a></td>
@@ -1401,8 +1423,10 @@
 							
 							</tr>
 							<tr>
-								<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_form_horizontal">Editar
-								<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_onhidden">Borrar
+								<div class="col-md-3 col-sm-4">
+								<div class="d-flex align-items-right">
+								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
+								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
 							    <td>2323</td>
 								<td>Vinculacion</td>
 								<td>222333444</td>
@@ -1430,8 +1454,10 @@
 
 							</tr>
 							<tr>
-								<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_form_horizontal">Editar
-								<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_onhidden">Borrar
+								<div class="col-md-3 col-sm-4">
+								<div class="d-flex align-items-right">
+								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
+								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
 								<td>3333</td>
 								<td>Atencion a clientes</td>
 								<td>444555333</td>
@@ -1460,8 +1486,10 @@
 
 							</tr>
 							<tr>
-								<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_form_horizontal">Editar
-							    <td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_onhidden">Borrar 
+								<div class="col-md-3 col-sm-4">
+								<div class="d-flex align-items-right">
+								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
+								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
 							    <td>4444</td>
 								<td>Direccion</td>
 								<td>666555444</td>
@@ -1488,9 +1516,11 @@
 
 							</tr>
 							<tr>
-								<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_form_horizontal">Editar
-								<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_onhidden">Borrar
-								<td>5555</td>
+								<div class="col-md-3 col-sm-4">
+								<div class="d-flex align-items-right">
+								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
+								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
+								<td>98578</td>
 								<td>Gerencia</td>
 								<td>999888666</td>
 								<td>ger@gmail.com</td>
@@ -1520,8 +1550,10 @@
 							
 							</tr>
 							<tr>
-								<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_form_horizontal">Editar
-								<td><button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal_onhidden">Borrar
+								<div class="col-md-3 col-sm-4">
+								<div class="d-flex align-items-right">
+								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
+								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
 								<td>6666</td>
 								<td>Sistemas</td>
 								<td>999888777</td>
