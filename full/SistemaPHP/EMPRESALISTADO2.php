@@ -1058,10 +1058,6 @@
 								<li class="nav-item"><a href="EMPRESALISTADO.html" class="nav-link active">Listado</a></li>
 								
 								<li class="nav-item"><a href="EMPRESAEDITAR.html" class="nav-link">Editar</a></li>
-
-
-
-
 								<!-- puesto por rangel
 								<li class="nav-item"><a href="datatable_sorting.html" class="nav-link">Sorting options</a></li>
 								<li class="nav-item"><a href="datatable_api.html" class="nav-link">Using API</a></li>
@@ -1311,7 +1307,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Registro de </span> Vacaciones</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Listado de </span> - Empresas</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 <!--
@@ -1373,7 +1369,7 @@
 				<!-- Basic datatable -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Registro general de vacaciones.</h5>
+						<h5 class="card-title">Listado de empresas</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1384,20 +1380,24 @@
 					</div>
 
 					<div class="card-body">
-						<code>Regsitros</code> </strong>
+						Las<code>Empresas</code> </strong>
 					</div>
 
 					<table class="table datatable-basic">
 						<thead>
-							<tr class="bg-primary">
+							<tr>
 								
 
-								<th>Folio</th>
-								<th>ID Empleado</th>
-								<th>Fecha de registro</th>
-					
-								<th>Fecha de inicio</th>
-								<th>Fecha de Término</th>
+								<th>ID Empresa</th>
+								<th>Nombre</th>
+								<th>Numero de Telefono</th>
+								<th>Correo de contacto</th>
+								<th>Ubicacion</th>
+								<th>Direccion</th>
+								<th>CP</th>
+								<th>Rep Legal</th>
+								
+						
 
 									<!--
 								<th class="text-center">Exportar</th>
@@ -1407,37 +1407,15 @@
 						<tbody>
 							<tr>
 
-								<td>11</td>
-								<td>2222</td>
-								<td>2/4/19</a></td>
-							
-								<td>8/5/19</td>
-								<td>8/5/19</td>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>Tula, Tamaulipas</td>
+								<td>7269 College Lane</td>
+								<td>8453</td>
+								<th>Lic. Benito Camelo</th>
 
-								<tr>
-
-								<td>11</td>
-								<td>2222</td>
-								<td>2/4/19</a></td>
-							
-								<td>8/5/19</td>
-								<td>8/5/19</td>
-									<tr>
-
-								<td>11</td>
-								<td>2222</td>
-								<td>2/4/19</a></td>
-							
-								<td>8/5/19</td>
-								<td>8/5/19</td>
-									<tr>
-
-								<td>11</td>
-								<td>2222</td>
-								<td>2/4/19</a></td>
-							
-								<td>8/5/19</td>
-								<td>8/5/19</td>
 								
 								<!--
 								<td class="text-center">
@@ -1459,7 +1437,16 @@
 						-->
 
 							
-							
+							</tr>
+							<tr>
+								<td>14</td>
+								<td>Tacos "San Luis"</td>
+								<td>1356748</a></td>
+								<td>tkssnlis@gmail.com</td>
+								<td>Matamoros</td>
+								<td>7269 College Lane</td>
+								<td>5457</td>
+								<th>Lic. Benito Camelo</th>
 								<!--
 								<td class="text-center">
 									<div class="list-icons">
@@ -1479,7 +1466,16 @@
 							</tr>
 						-->
 
-							
+							</tr>
+							<tr>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>San Fernando</td>
+								<td>7269 College Lane</td>
+								<td>9765</td>
+								<th>Lic. Benito Camelo</th>
 								
 
 								<!--
@@ -1502,7 +1498,17 @@
 						-->
 
 
-					
+							</tr>
+							<tr>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>Madero</td>
+								<td>7269 College Lane</td>
+								<td>9875</td>
+								<th>Lic. Benito Camelo</th>
+								
 								<!--
 								<td class="text-center">
 									<div class="list-icons">
@@ -1522,6 +1528,17 @@
 							</tr>
 						-->
 
+							</tr>
+							<tr>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>Tmpico</td>
+								<td>7269 College Lane</td>
+								<td>6789</td>
+								<th>Lic. Benito Camelo</th>
+								
 								
 								<!--
 								<td class="text-center">
@@ -1545,13 +1562,39 @@
 
 							
 							
-				
+							</tr>
+							<tr>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>Altamira</td>
+								<td>7269 College Lane</td>
+								<td>2345</td>
+								<th>Lic. Benito Camelo</th>
+
+								</tr>
+							<tr>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>Aldama</td>
+								<td>7269 College Lane</td>
+								<td>3576</td>
+								<th>Lic. Benito Camelo</th>
 								
 
 								</tr>
-							
-								
-								
+							<tr>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>Reynosa</td>
+								<td>7269 College Lane</td>
+								<td>8653</td>
+								<th>Lic. Benito Camelo</th>
 								
 								
 
@@ -1819,46 +1862,69 @@
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title">Folio</h5>
+								<h5 class="modal-title">Agregar registro</h5>
 								<button type="button" class="close" data-dismiss="modal">&times;</button>
 							</div>
 
 							<form action="#" class="form-horizontal">
 								<div class="modal-body">
 									<div class="form-group row">
-										<label class="col-form-label col-sm-3">ID Empleado</label>
+										<label class="col-form-label col-sm-3">ID Empresa</label>
 										<div class="col-sm-9">
 											<input type="text" placeholder="ID" class="form-control border-primary border-2">
 										</div>
 									</div>
 
 									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Fecha de registro
-											<span class="form-text text-muted">Dia actual</span></label>
-
+										<label class="col-form-label col-sm-3">Nombre</label>
 										<div class="col-sm-9">
-											<input type="date" placeholder="EjemploInc" class="form-control border-primary border-2">
-										</div>
-									</div>
-
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Fecha de inicio
-											<span class="form-text text-muted">Inicio</span></label>
-										<div class="col-sm-9">
-											<input type="Date" placeholder="Fecha donde empieza el periodo" class="form-control border-primary border-2">
+											<input type="text" placeholder="EjemploInc" class="form-control border-primary border-2">
 										</div>
 									</div>
 
 									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Fecha de termino
-											<span class="form-text text-muted">No mayor a 2 semanas</span></label>
+										<label class="col-form-label col-sm-3">Numero  de telefono</label>
 										<div class="col-sm-9">
-											<input type="Date" placeholder="Fecha donde el trabajador debe regresar." class="form-control border-primary border-2">
+											<input type="text" placeholder="99887766" class="form-control border-primary border-2">
+											<span class="form-text text-muted">name@domain.com</span>
 										</div>
 									</div>
 
-									
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Correo de contacto</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Ejemplo@ejemplo.com" data-mask="+99-99-9999-9999" class="form-control border-primary border-2">
+											<span class="form-text text-muted">+99-99-9999-9999</span>
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Ubicacion</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Estado" class="form-control border-primary border-2">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Direccion</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Calle Ejemplo, Numero" class="form-control border-primary border-2">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Cp</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Codigo Postal" class="form-control border-primary border-2">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">RepLegal</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Representante Legal" class="form-control border-primary border-2">
+										</div>
+									</div>
 
 
 

@@ -993,9 +993,7 @@
 					-->
 						<!-- /extensions -->
 
-						<!-- Tables -->
 					
-
 							<!--
 							<a href="#" class="nav-link"><i class="icon-table2"></i> <span>Basic tables</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
@@ -1007,23 +1005,38 @@
 							</ul>
 
 						-->
-								<!-- Tables -->
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Empleados</div> <i class="icon-menu" title="Tables"></i></li>
-						<li class="nav-item nav-item-submenu">
+
+									<!-- Tables -->
+
+									<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Pagina Principal</div> <i class="icon-menu" title="Main"></i></li>
+						<li class="nav-item">
+							<a href="INDEXSISTEMA.html" class="nav-link active">
+								<i class="icon-home4"></i>
+								<span>
+									Dashboard
+								
+								
+
+								</span>
+							</a>
 						</li>
 						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Empleados</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="datatable_basic.html" class="nav-link active">Listado</a></li>
-								<li class="nav-item"><a href="datatable_styling.html" class="nav-link">Registrar</a></li>
-								<li class="nav-item"><a href="datatable_basic_Editar.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="EMPLEADOSLISTADO.html" class="nav-link active">Listado</a></li>
+								<li class="nav-item"><a href="EMPLEADOSREGISTRAR.html" class="nav-link">Registrar</a></li>
+								<li class="nav-item"><a href="EMPLEADOSEDITAR.html" class="nav-link">Editar</a></li>
+
+							<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Vacaciones</div> <i class="icon-menu" title="Tables"></i></li>
+						<li class="nav-item nav-item-submenu">
+
 
 						<li class="nav-item  nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Vacaciones</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="VacacionesListado.html" class="nav-link active">Listado</a></li>
+								<li class="nav-item"><a href="VACACIONESLISTADO.html" class="nav-link active">Listado</a></li>
 
-								<li class="nav-item"><a href="VacacionesEditar.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="VACACIONESEDITAR.html" class="nav-link">Editar</a></li>
 
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Departamentos</div> <i class="icon-menu" title="Tables"></i></li>
 						<li class="nav-item nav-item-submenu">
@@ -1032,18 +1045,19 @@
 						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Departamentos</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="datatable_basicDeptos.html" class="nav-link active">Listado</a></li>
-								<li class="nav-item"><a href="datatable_stylingDeptos.html" class="nav-link">Registrar</a></li>
-								<li class="nav-item"><a href="datatable_basic_Editar_Deptos.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="DEPTOSLISTADO.html" class="nav-link active">Listado</a></li>
+								<li class="nav-item"><a href="DEPTOSREGISTRAR.html" class="nav-link">Registrar</a></li>
+								<li class="nav-item"><a href="DEPTOSEDITAR.html" class="nav-link">Editar</a></li>
 
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Empresas</div> <i class="icon-menu" title="Tables"></i></li>
 
 						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Empresas</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="EmpresasListado.html" class="nav-link active">Listado</a></li>
-							
-								<li class="nav-item"><a href="EmpresaEditar.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="EMPRESALISTADO.html" class="nav-link active">Listado</a></li>
+								
+								<li class="nav-item"><a href="EMPRESAEDITAR.html" class="nav-link">Editar</a></li>
+				
 
 								<!-- puesto por rangel
 								<li class="nav-item"><a href="datatable_sorting.html" class="nav-link">Sorting options</a></li>
@@ -1294,7 +1308,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Listado de </span> - Empresas</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold"></span>Edicion</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 <!--
@@ -1356,7 +1370,7 @@
 				<!-- Basic datatable -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Listado de empresas</h5>
+						<h5 class="card-title">Edicion</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1367,25 +1381,22 @@
 					</div>
 
 					<div class="card-body">
-						Las<code>Empresas</code> </strong>
+						Los empleados de esta lista ya han<code> Solicitado o programado</code> su periodo vacacional.</strong>
 					</div>
 
 					<table class="table datatable-basic">
 						<thead>
+							<tr class="bg-primary">
+								
 							<tr>
+								<th></th>
+								<th>Folio</th>
+								<th>ID Empleado</th>
+								<th>Fecha de registro</th>
+								<th>Fecha de inicio</th>
+								<th>Fecha de termino</th>
 								
-
-								<th>ID Empresa</th>
-								<th>Nombre</th>
-								<th>Numero de Telefono</th>
-								<th>Correo de contacto</th>
-								<th>Ubicacion</th>
-								<th>Direccion</th>
-								<th>CP</th>
-								<th>Rep Legal</th>
 								
-						
-
 									<!--
 								<th class="text-center">Exportar</th>
 							-->
@@ -1393,16 +1404,15 @@
 						</thead>
 						<tbody>
 							<tr>
-
-								<td>111</td>
-								<td>Sillas Poderosas</td>
-								<td>111222333</a></td>
-								<td>sillaspod@gmail.com</td>
-								<td>Tula, Tamaulipas</td>
-								<td>7269 College Lane</td>
-								<td>8453</td>
-								<th>Lic. Benito Camelo</th>
-
+								<div class="col-md-3 col-sm-4">
+								<div class="d-flex align-items-right">
+								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
+								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
+								<td>11</td>
+								<td>2222</td>
+								<td>2/4/19</td>
+								<td>3/5/19</td>
+								<td>8/5/19</td>
 								
 								<!--
 								<td class="text-center">
@@ -1426,75 +1436,15 @@
 							
 							</tr>
 							<tr>
-								<td>14</td>
-								<td>Tacos "San Luis"</td>
-								<td>1356748</a></td>
-								<td>tkssnlis@gmail.com</td>
-								<td>Matamoros</td>
-								<td>7269 College Lane</td>
-								<td>5457</td>
-								<th>Lic. Benito Camelo</th>
-								<!--
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-						-->
-
-							</tr>
-							<tr>
-								<td>111</td>
-								<td>Sillas Poderosas</td>
-								<td>111222333</a></td>
-								<td>sillaspod@gmail.com</td>
-								<td>San Fernando</td>
-								<td>7269 College Lane</td>
-								<td>9765</td>
-								<th>Lic. Benito Camelo</th>
-								
-
-								<!--
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-						-->
-
-
-							</tr>
-							<tr>
-								<td>111</td>
-								<td>Sillas Poderosas</td>
-								<td>111222333</a></td>
-								<td>sillaspod@gmail.com</td>
-								<td>Madero</td>
-								<td>7269 College Lane</td>
-								<td>9875</td>
-								<th>Lic. Benito Camelo</th>
+								<div class="col-md-3 col-sm-4">
+								<div class="d-flex align-items-right">
+								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
+								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
+								<td>22</td>
+								<td>3333</td>
+								<td>2/4/19</td>
+								<td>3/5/19</td>
+								<td>8/5/19</td>
 								
 								<!--
 								<td class="text-center">
@@ -1517,15 +1467,70 @@
 
 							</tr>
 							<tr>
-								<td>111</td>
-								<td>Sillas Poderosas</td>
-								<td>111222333</a></td>
-								<td>sillaspod@gmail.com</td>
-								<td>Tmpico</td>
-								<td>7269 College Lane</td>
-								<td>6789</td>
-								<th>Lic. Benito Camelo</th>
+								<div class="col-md-3 col-sm-4">
+								<div class="d-flex align-items-right">
+								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
+								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
+								<td>33</td>
+								<td>4444</td>
+								<td>2/4/19</td>
+								<td>3/5/19</td>
+								<td>8/5/19</td>
 								
+								
+								<!--
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+						-->
+
+
+							</tr>
+							<tr>
+								<div class="col-md-3 col-sm-4">
+								<div class="d-flex align-items-right">
+								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
+								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
+								<td>44</td>
+								<td>5555</td>
+								<td>2/4/19</td>
+								<td>3/5/19</td>
+								<td>8/5/19</td>
+								
+								
+								<!--
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+						-->
+
+							
 								
 								<!--
 								<td class="text-center">
@@ -1549,40 +1554,7 @@
 
 							
 							
-							</tr>
-							<tr>
-								<td>111</td>
-								<td>Sillas Poderosas</td>
-								<td>111222333</a></td>
-								<td>sillaspod@gmail.com</td>
-								<td>Altamira</td>
-								<td>7269 College Lane</td>
-								<td>2345</td>
-								<th>Lic. Benito Camelo</th>
-
-								</tr>
-							<tr>
-								<td>111</td>
-								<td>Sillas Poderosas</td>
-								<td>111222333</a></td>
-								<td>sillaspod@gmail.com</td>
-								<td>Aldama</td>
-								<td>7269 College Lane</td>
-								<td>3576</td>
-								<th>Lic. Benito Camelo</th>
-								
-
-								</tr>
-							<tr>
-								<td>111</td>
-								<td>Sillas Poderosas</td>
-								<td>111222333</a></td>
-								<td>sillaspod@gmail.com</td>
-								<td>Reynosa</td>
-								<td>7269 College Lane</td>
-								<td>8653</td>
-								<th>Lic. Benito Camelo</th>
-								
+						
 								
 
 								<!--
@@ -1603,6 +1575,11 @@
 								</td>
 							</tr>
 						-->
+
+							
+								
+								
+
 								<!--
 								<td class="text-center">
 									<div class="list-icons">
@@ -1626,11 +1603,79 @@
 					</table>
 				</div>
 
-				<button type="button" class="btn bg-teal-400 btn-labeled btn-labeled-center" data-toggle="modal" data-target="#modal_form_horizontal">Agregar
+			  <!-- Horizontal form modal -->
+				<div id="modal_form_horizontal" class="modal fade" tabindex="-1">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Editar registro</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
 
+							<form action="#" class="form-horizontal">
+								<div class="modal-body">
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Folio Empleado</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="1111" class="form-control">
+										</div>
+									</div>
 
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Fecha de Registro</label>
+										<div class="col-sm-9">
+											<input type="date" placeholder="Cuando se realizo la solicitud" class="form-control">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Fecha de inicio</label>
+										<div class="col-sm-9">
+											<input type="date" placeholder="eugene@kopyov.com" class="form-control">
+											
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Fecha de termino</label>
+										<div class="col-sm-9">
+											<input type="date" placeholder="+99-99-9999-9999" data-mask="+99-99-9999-9999" class="form-control">
+											
+										</div>
+									</div>
 
 								
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-link" data-dismiss="modal">Cancelar</button>
+									<button type="submit" class="btn bg-primary">Guardar Cambios</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div id="modal_onhidden" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Confirmar cambios</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								El registor sera borrado.
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-light" data-dismiss="modal">Entendido</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /horizontal form modal -->
+
 
 
 				<!-- /basic datatable -->
@@ -1845,89 +1890,6 @@
 			</div>
 			<!-- /content area -->
 
-			<div id="modal_form_horizontal" class="modal fade" tabindex="-1">
-					<div class="modal-dialog modal-lg">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title">Agregar registro</h5>
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
-							</div>
-
-							<form action="#" class="form-horizontal">
-								<div class="modal-body">
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">ID Empresa</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="ID" class="form-control border-primary border-2">
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Nombre</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="EjemploInc" class="form-control border-primary border-2">
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Numero  de telefono</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="99887766" class="form-control border-primary border-2">
-											<span class="form-text text-muted">name@domain.com</span>
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Correo de contacto</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="Ejemplo@ejemplo.com" data-mask="+99-99-9999-9999" class="form-control border-primary border-2">
-											<span class="form-text text-muted">+99-99-9999-9999</span>
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Ubicacion</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="Estado" class="form-control border-primary border-2">
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Direccion</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="Calle Ejemplo, Numero" class="form-control border-primary border-2">
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Cp</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="Codigo Postal" class="form-control border-primary border-2">
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">RepLegal</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="Representante Legal" class="form-control border-primary border-2">
-										</div>
-									</div>
-
-
-
-
-								</div>
-
-								<div class="modal-footer">
-									<button type="button" class="btn btn-link" data-dismiss="modal">Cancelar</button>
-									<button type="submit" class="btn bg-primary">Guardar Cambios</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-
-
 
 			<!-- Footer -->
 			<div class="navbar navbar-expand-lg navbar-light">
@@ -1940,7 +1902,7 @@
 
 				<div class="navbar-collapse collapse" id="navbar-footer">
 					<span class="navbar-text">
-						&copy; 2019. <a href="#">Edit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Rangel Turrubiates</a>
+						&copy; 2015 - 2018. <a href="#">Limitless Web App Kit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
 					</span>
 
 					<ul class="navbar-nav ml-lg-auto">

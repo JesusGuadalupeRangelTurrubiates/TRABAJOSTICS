@@ -1009,7 +1009,7 @@
 						-->
 								<!-- Tables -->
 
-								<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Pagina Principal</div> <i class="icon-menu" title="Main"></i></li>
+							<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Pagina Principal</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
 							<a href="INDEXSISTEMA.html" class="nav-link active">
 								<i class="icon-home4"></i>
@@ -1021,7 +1021,7 @@
 								</span>
 							</a>
 						</li>
-						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+					<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Empleados</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
 								<li class="nav-item"><a href="EMPLEADOSLISTADO.html" class="nav-link active">Listado</a></li>
@@ -1058,9 +1058,6 @@
 								<li class="nav-item"><a href="EMPRESALISTADO.html" class="nav-link active">Listado</a></li>
 								
 								<li class="nav-item"><a href="EMPRESAEDITAR.html" class="nav-link">Editar</a></li>
-
-
-
 
 								<!-- puesto por rangel
 								<li class="nav-item"><a href="datatable_sorting.html" class="nav-link">Sorting options</a></li>
@@ -1311,7 +1308,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Registro de </span> Vacaciones</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Listado de </span> - Departamentos</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 <!--
@@ -1373,7 +1370,7 @@
 				<!-- Basic datatable -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Registro general de vacaciones.</h5>
+						<h5 class="card-title">Departamentos</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1384,20 +1381,17 @@
 					</div>
 
 					<div class="card-body">
-						<code>Regsitros</code> </strong>
+						Los<code> Departamentos</code> </strong>
 					</div>
 
 					<table class="table datatable-basic">
 						<thead>
-							<tr class="bg-primary">
-								
-
-								<th>Folio</th>
-								<th>ID Empleado</th>
-								<th>Fecha de registro</th>
-					
-								<th>Fecha de inicio</th>
-								<th>Fecha de Término</th>
+							<tr>
+								<th>ID Depto</th>
+								<th>Nombre Depto</th>
+								<th>Numero de contacto</th>
+								<th>Correo de contacto</th>
+								<th>Edificio</th>
 
 									<!--
 								<th class="text-center">Exportar</th>
@@ -1406,38 +1400,11 @@
 						</thead>
 						<tbody>
 							<tr>
-
-								<td>11</td>
-								<td>2222</td>
-								<td>2/4/19</a></td>
-							
-								<td>8/5/19</td>
-								<td>8/5/19</td>
-
-								<tr>
-
-								<td>11</td>
-								<td>2222</td>
-								<td>2/4/19</a></td>
-							
-								<td>8/5/19</td>
-								<td>8/5/19</td>
-									<tr>
-
-								<td>11</td>
-								<td>2222</td>
-								<td>2/4/19</a></td>
-							
-								<td>8/5/19</td>
-								<td>8/5/19</td>
-									<tr>
-
-								<td>11</td>
-								<td>2222</td>
-								<td>2/4/19</a></td>
-							
-								<td>8/5/19</td>
-								<td>8/5/19</td>
+								<td>1212</td>
+								<td>Tesoreria</td>
+								<td>111222333</a></td>
+								<td>sdg@gmail.com</td>
+								<td>A</td>
 								
 								<!--
 								<td class="text-center">
@@ -1459,27 +1426,13 @@
 						-->
 
 							
-							
-								<!--
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
 							</tr>
-						-->
-
-							
+							<tr>
+								<td>2323</td>
+								<td>Vinculacion</td>
+								<td>222333444</td>
+								<td>srygh@gmail.com</td>
+								<td>B</td>
 								
 
 								<!--
@@ -1501,28 +1454,16 @@
 							</tr>
 						-->
 
-
-					
-								<!--
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
 							</tr>
-						-->
-
+							<tr>
+								<td>3333</td>
+								<td>Atencion a clientes</td>
+								<td>444555333</td>
+								<td>atncln@gmail.com</td>
+								<td>B</td>
 								
+								
+
 								<!--
 								<td class="text-center">
 									<div class="list-icons">
@@ -1543,16 +1484,71 @@
 						-->
 
 
-							
-							
-				
+							</tr>
+							<tr>
+								<td>4444</td>
+								<td>Direccion</td>
+								<td>666555444</td>
+								<td>dir@gmail.com</td>
+								<td>A</td>
 								
+								<!--
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
 
-								</tr>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+						-->
+
+							</tr>
+							<tr>
+								<td>5555</td>
+								<td>Gerencia</td>
+								<td>999888666</td>
+								<td>ger@gmail.com</td>
+								<td>C</td>
+								
+								
+								<!--
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+						-->
+
+
 							
-								
-								
-								
+							
+							</tr>
+							<tr>
+								<td>6666</td>
+								<td>Sistemas</td>
+								<td>999888777</td>
+								<td>sist@gmail.com</td>
+								<td>C</td>
 								
 
 								<!--
@@ -1595,12 +1591,6 @@
 						</tbody>
 					</table>
 				</div>
-
-				<button type="button" class="btn bg-teal-400 btn-labeled btn-labeled-center" data-toggle="modal" data-target="#modal_form_horizontal">Agregar
-
-
-
-								
 
 
 				<!-- /basic datatable -->
@@ -1815,66 +1805,6 @@
 			</div>
 			<!-- /content area -->
 
-			<div id="modal_form_horizontal" class="modal fade" tabindex="-1">
-					<div class="modal-dialog modal-lg">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title">Folio</h5>
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
-							</div>
-
-							<form action="#" class="form-horizontal">
-								<div class="modal-body">
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">ID Empleado</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="ID" class="form-control border-primary border-2">
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Fecha de registro
-											<span class="form-text text-muted">Dia actual</span></label>
-
-										<div class="col-sm-9">
-											<input type="date" placeholder="EjemploInc" class="form-control border-primary border-2">
-										</div>
-									</div>
-
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Fecha de inicio
-											<span class="form-text text-muted">Inicio</span></label>
-										<div class="col-sm-9">
-											<input type="Date" placeholder="Fecha donde empieza el periodo" class="form-control border-primary border-2">
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Fecha de termino
-											<span class="form-text text-muted">No mayor a 2 semanas</span></label>
-										<div class="col-sm-9">
-											<input type="Date" placeholder="Fecha donde el trabajador debe regresar." class="form-control border-primary border-2">
-										</div>
-									</div>
-
-									
-
-
-
-
-								</div>
-
-								<div class="modal-footer">
-									<button type="button" class="btn btn-link" data-dismiss="modal">Cancelar</button>
-									<button type="submit" class="btn bg-primary">Guardar Cambios</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-
-
 
 			<!-- Footer -->
 			<div class="navbar navbar-expand-lg navbar-light">
@@ -1887,7 +1817,7 @@
 
 				<div class="navbar-collapse collapse" id="navbar-footer">
 					<span class="navbar-text">
-						&copy; 2019. <a href="#">Edit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Rangel Turrubiates</a>
+						&copy; 2015 - 2018. <a href="#">Limitless Web App Kit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
 					</span>
 
 					<ul class="navbar-nav ml-lg-auto">

@@ -1016,7 +1016,7 @@
 								<li class="nav-item"><a href="datatable_styling.html" class="nav-link">Registrar</a></li>
 								<li class="nav-item"><a href="datatable_basic_Editar.html" class="nav-link">Editar</a></li>
 
-								<li class="nav-item  nav-item-expanded nav-item-open">
+						<li class="nav-item  nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Vacaciones</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
 								<li class="nav-item"><a href="VacacionesListado.html" class="nav-link active">Listado</a></li>
@@ -1040,7 +1040,7 @@
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Empresas</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
 								<li class="nav-item"><a href="EmpresasListado.html" class="nav-link active">Listado</a></li>
-								<li class="nav-item"><a href="EmpresasRegistro.html" class="nav-link">Registrar</a></li>
+								<li class="nav-item"><a href="EmpresaRegistro.html" class="nav-link">Registrar</a></li>
 								<li class="nav-item"><a href="EmpresaEditar.html" class="nav-link">Editar</a></li>
 								<!--
 								<li class="nav-item"><a href="datatable_sorting.html" class="nav-link">Sorting options</a></li>

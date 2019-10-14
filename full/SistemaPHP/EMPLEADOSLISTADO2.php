@@ -994,7 +994,7 @@
 						<!-- /extensions -->
 
 						<!-- Tables -->
-				
+						
 
 							<!--
 							<a href="#" class="nav-link"><i class="icon-table2"></i> <span>Basic tables</span></a>
@@ -1008,22 +1008,36 @@
 
 						-->
 								<!-- Tables -->
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Empleados</div> <i class="icon-menu" title="Tables"></i></li>
-						<li class="nav-item nav-item-submenu">
+
+								<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Pagina Principal</div> <i class="icon-menu" title="Main"></i></li>
+						<li class="nav-item">
+							<a href="INDEXSISTEMA.html" class="nav-link active">
+								<i class="icon-home4"></i>
+								<span>
+									Dashboard
+								
+								
+
+								</span>
+							</a>
 						</li>
-						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+				<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Empleados</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="datatable_basic.html" class="nav-link active">Listado</a></li>
-								<li class="nav-item"><a href="datatable_styling.html" class="nav-link">Registrar</a></li>
-								<li class="nav-item"><a href="datatable_basic_Editar.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="EMPLEADOSLISTADO.html" class="nav-link active">Listado</a></li>
+								<li class="nav-item"><a href="EMPLEADOSREGISTRAR.html" class="nav-link">Registrar</a></li>
+								<li class="nav-item"><a href="EMPLEADOSEDITAR.html" class="nav-link">Editar</a></li>
 
-								<li class="nav-item  nav-item-expanded nav-item-open">
+							<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Vacaciones</div> <i class="icon-menu" title="Tables"></i></li>
+						<li class="nav-item nav-item-submenu">
+
+
+						<li class="nav-item  nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Vacaciones</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="VacacionesListado.html" class="nav-link active">Listado</a></li>
+								<li class="nav-item"><a href="VACACIONESLISTADO.html" class="nav-link active">Listado</a></li>
 
-								<li class="nav-item"><a href="VacacionesEditar.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="VACACIONESEDITAR.html" class="nav-link">Editar</a></li>
 
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Departamentos</div> <i class="icon-menu" title="Tables"></i></li>
 						<li class="nav-item nav-item-submenu">
@@ -1032,19 +1046,19 @@
 						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Departamentos</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="datatable_basicDeptos.html" class="nav-link active">Listado</a></li>
-								<li class="nav-item"><a href="datatable_stylingDeptos.html" class="nav-link">Registrar</a></li>
-								<li class="nav-item"><a href="datatable_basic_Editar_Deptos.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="DEPTOSLISTADO.html" class="nav-link active">Listado</a></li>
+								<li class="nav-item"><a href="DEPTOSREGISTRAR.html" class="nav-link">Registrar</a></li>
+								<li class="nav-item"><a href="DEPTOSEDITAR.html" class="nav-link">Editar</a></li>
 
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Empresas</div> <i class="icon-menu" title="Tables"></i></li>
-						<li class="nav-item nav-item-submenu">
 
 						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Empresas</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="EmpresasListado.html" class="nav-link active">Listado</a></li>
-								<li class="nav-item"><a href="EmpresasRegistro.html" class="nav-link">Registrar</a></li>
-								<li class="nav-item"><a href="EmpresaEditar.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="EMPRESALISTADO.html" class="nav-link active">Listado</a></li>
+								
+								<li class="nav-item"><a href="EMPRESAEDITAR.html" class="nav-link">Editar</a></li>
+
 
 								<!-- puesto por rangel
 								<li class="nav-item"><a href="datatable_sorting.html" class="nav-link">Sorting options</a></li>
@@ -1295,7 +1309,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold"></span>Edicion</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Listado de </span> - Empleados</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 <!--
@@ -1357,7 +1371,7 @@
 				<!-- Basic datatable -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Edicion</h5>
+						<h5 class="card-title">Empleados</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1368,19 +1382,20 @@
 					</div>
 
 					<div class="card-body">
-						<code>Edicion</code> de registros.</strong>
+						Los<code> Empleados</code> que forman parte del recurso humano.</strong>
 					</div>
 
 					<table class="table datatable-basic">
 						<thead>
 							<tr>
-								<th></th>
-								
-						     	<th>ID Depto</th>
-								<th>Nombre Depto</th>
-								<th>Numero de contacto</th>
-								<th>Correo de contacto</th>
-								<th>Edificio</th>
+								<th>Matricula</th>
+								<th>Nombre</th>
+								<th>Apellido</th>
+								<th>Sexo</th>
+								<th>Trabajo</th>
+								<th>Nacimiento</th>
+								<th>Correo</th>
+								<th>Tel</th>
 									<!--
 								<th class="text-center">Exportar</th>
 							-->
@@ -1388,19 +1403,14 @@
 						</thead>
 						<tbody>
 							<tr>
-
-								<div class="col-md-3 col-sm-4">
-								<div class="d-flex align-items-right">
-								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
-								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
-
-								
-								<td>1212</td>
-								<td>Tesoreria</td>
-								<td>111222333</a></td>
-								<td>sdg@gmail.com</td>
-								<td>A</td>m</td>
-						
+								<td>1111</td>
+								<td>Marth</td>
+								<td><a href="#">Enright</a></td>
+								<td>H</td>
+								<td>Traffic Court Referee</td>
+								<td>22 Jun 1972</td>
+								<td>235@hotmail.com</td>
+								<td>22-22-22</td>
 								<!--
 								<td class="text-center">
 									<div class="list-icons">
@@ -1423,15 +1433,14 @@
 							
 							</tr>
 							<tr>
-								<div class="col-md-3 col-sm-4">
-								<div class="d-flex align-items-right">
-								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
-								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
-							    <td>2323</td>
-								<td>Vinculacion</td>
-								<td>222333444</td>
-								<td>srygh@gmail.com</td>
-								<td>B</td>
+								<td>2222</td>
+								<td>Jorge</td>
+								<td>Nazares</td>
+								<td>H</td>
+								<td>Encargado de Inventarios</td>
+								<td>2 Feb 1988</td>
+								<td>asd@123.com</td>
+								<td>11-11-11</td>
 
 								<!--
 								<td class="text-center">
@@ -1454,15 +1463,15 @@
 
 							</tr>
 							<tr>
-								<div class="col-md-3 col-sm-4">
-								<div class="d-flex align-items-right">
-								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
-								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
 								<td>3333</td>
-								<td>Atencion a clientes</td>
-								<td>444555333</td>
-								<td>atncln@gmail.com</td>
-								<td>B</td>
+								<td>Juan</td>
+								<td>Salas</td>
+								<td>H</td>
+								<td>Conductor</td>
+								
+								<td>5 Dic 1998</td>
+								<td>wet@gmail.com</td>
+								<th>33-33-33<th>
 
 								<!--
 								<td class="text-center">
@@ -1486,15 +1495,15 @@
 
 							</tr>
 							<tr>
-								<div class="col-md-3 col-sm-4">
-								<div class="d-flex align-items-right">
-								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
-								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
-							    <td>4444</td>
-								<td>Direccion</td>
-								<td>666555444</td>
-								<td>dir@gmail.com</td>
-								<td>A</td>
+								<td>4444</td>
+								<td>Pedro</td>
+								<td>Perez</td>
+								<td>H</td>
+								<td>Conductor</td>
+								
+								<td>6 Mar 1989</td>
+								<td>wsfh@gmail.com</td>
+								<th>55-55-55<th>
 								<!--
 								<td class="text-center">
 									<div class="list-icons">
@@ -1516,15 +1525,15 @@
 
 							</tr>
 							<tr>
-								<div class="col-md-3 col-sm-4">
-								<div class="d-flex align-items-right">
-								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
-								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
-								<td>98578</td>
-								<td>Gerencia</td>
-								<td>999888666</td>
-								<td>ger@gmail.com</td>
-								<td>C</td>
+								<td>5555</td>
+								<td>Guillermo</td>
+								<td>Castillo</td>
+								<td>H</td>
+								<td>Recepcionista</td>
+								
+								<td>9 Jul 1999</td>
+								<td>drh@gmail.com</td>
+								<th>66-66-66<th>
 
 								<!--
 								<td class="text-center">
@@ -1550,15 +1559,15 @@
 							
 							</tr>
 							<tr>
-								<div class="col-md-3 col-sm-4">
-								<div class="d-flex align-items-right">
-								<td><button type="button" class="icon-pencil5" data-toggle="modal" data-target="#modal_form_horizontal">
-								<button type="button" class="icon-bin" data-toggle="modal" data-target="#modal_onhidden"></td>
 								<td>6666</td>
-								<td>Sistemas</td>
-								<td>999888777</td>
-								<td>sist@gmail.com</td>
-								<td>C</td>
+								<td>Marcelino</td>
+								<td>Sulaiman</td>
+								<td>H</td>
+								<td>Encargado de transporte</td>
+								<td>12 Ene 1988</td>
+								<td>wojgh@gmail.com</td>
+								<th>77-77-77<th>
+
 								<!--
 								<td class="text-center">
 									<div class="list-icons">
@@ -1578,7 +1587,16 @@
 							</tr>
 						-->
 
-							
+							<tr>
+								<td>7777</td>
+								<td>Mariano</td>
+								<td>Pinozuares</td>
+								<td>H</td>
+								<td>Vendedor de Jìcamas</td>
+								
+								<td>1 Ene 1987</td>
+								<td>soihfb@gmail.com</td>
+								<th>99-99-99<th>
 
 								<!--
 								<td class="text-center">
@@ -1602,87 +1620,6 @@
 						</tbody>
 					</table>
 				</div>
-
-			  <!-- Horizontal form modal -->
-				<div id="modal_form_horizontal" class="modal fade" tabindex="-1">
-					<div class="modal-dialog modal-lg">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title">Editar registro</h5>
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
-							</div>
-
-							<form action="#" class="form-horizontal">
-								<div class="modal-body">
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">ID Depto</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="Eugene" class="form-control">
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Nombre Depto</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="Kopyov" class="form-control">
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Numero  de contacto</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="eugene@kopyov.com" class="form-control">
-											<span class="form-text text-muted">name@domain.com</span>
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Correo de contacto</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="+99-99-9999-9999" data-mask="+99-99-9999-9999" class="form-control">
-											<span class="form-text text-muted">+99-99-9999-9999</span>
-										</div>
-									</div>
-
-									<div class="form-group row">
-										<label class="col-form-label col-sm-3">Edificio</label>
-										<div class="col-sm-9">
-											<input type="text" placeholder="Ring street 12, building D, flat #67" class="form-control">
-										</div>
-									</div>
-
-
-								</div>
-
-								<div class="modal-footer">
-									<button type="button" class="btn btn-link" data-dismiss="modal">Cancelar</button>
-									<button type="submit" class="btn bg-primary">Guardar Cambios</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-
-				<div id="modal_onhidden" class="modal fade" tabindex="-1">
-					<div class="modal-dialog">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title">Confirmar cambios</h5>
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
-							</div>
-
-							<div class="modal-body">
-								El registor sera borrado.
-							</div>
-
-							<div class="modal-footer">
-								<button type="button" class="btn btn-light" data-dismiss="modal">Entendido</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- /horizontal form modal -->
-
 
 
 				<!-- /basic datatable -->
