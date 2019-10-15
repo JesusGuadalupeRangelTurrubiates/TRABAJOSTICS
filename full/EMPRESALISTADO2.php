@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Sistema de prueba - Rangel Turrubiates - UPV</title>
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
@@ -23,15 +23,11 @@
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script src="../../../../global_assets/js/plugins/visualization/d3/d3.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
-	<script src="../../../../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
-	<script src="../../../../global_assets/js/plugins/ui/moment/moment.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/daterangepicker.js"></script>
+	<script src="../../../../global_assets/js/plugins/tables/datatables/datatables.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/selects/select2.min.js"></script>
 
 	<script src="assets/js/app.js"></script>
-	<script src="../../../../global_assets/js/demo_pages/dashboard.js"></script>
+	<script src="../../../../global_assets/js/demo_pages/datatables_basic.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -40,8 +36,7 @@
 
 	<!-- Main navbar -->
 
-	<!--
-
+	<!-- PUESTO POR RANGEL
 
 	<div class="navbar navbar-expand-md navbar-dark">
 		<div class="navbar-brand">
@@ -355,9 +350,7 @@
 		</div>
 	</div>
 
-
 -->
-
 	<!-- /main navbar -->
 
 
@@ -368,8 +361,6 @@
 		<div class="sidebar sidebar-dark sidebar-main sidebar-expand-md">
 
 			<!-- Sidebar mobile toggler -->
-
-			<!--
 			<div class="sidebar-mobile-toggler text-center">
 				<a href="#" class="sidebar-mobile-main-toggle">
 					<i class="icon-arrow-left8"></i>
@@ -380,8 +371,6 @@
 					<i class="icon-screen-normal"></i>
 				</a>
 			</div>
-
-		-->
 			<!-- /sidebar mobile toggler -->
 
 
@@ -390,83 +379,51 @@
 
 				<!-- User menu -->
 
-				
+				<!--
+				<div class="sidebar-user">
+					<div class="card-body">
+						<div class="media">
+							<div class="mr-3">
+								<a href="#"><img src="../../../../global_assets/images/placeholders/placeholder.jpg" width="38" height="38" class="rounded-circle" alt=""></a>
+							</div>
+
+							<div class="media-body">
+								<div class="media-title font-weight-semibold">Victoria Baker</div>
+								<div class="font-size-xs opacity-50">
+									<i class="icon-pin font-size-sm"></i> &nbsp;Santa Ana, CA
+								</div>
+							</div>
+
+							<div class="ml-3 align-self-center">
+								<a href="#" class="text-white"><i class="icon-cog3"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			-->
 				<!-- /user menu -->
 
 
 				<!-- Main navigation -->
-
-
 				<div class="card card-sidebar-mobile">
 					<ul class="nav nav-sidebar" data-nav-type="accordion">
 
-				
-						
 						<!-- Main -->
 
-						
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Pagina Principal</div> <i class="icon-menu" title="Main"></i></li>
+						<!-- PUESTO POR RANGEL
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="INDEXSISTEMA.html" class="nav-link active">
+							<a href="index.html" class="nav-link">
 								<i class="icon-home4"></i>
 								<span>
-									Dashboard
-								
-								
 
+
+									Dashboard
+									<span class="d-block font-weight-normal opacity-50">No active orders</span>
 								</span>
 							</a>
 						</li>
-
-								
-						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
-							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Empleados</span></a>
-							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="EMPLEADOSLISTADO.html" class="nav-link active">Listado</a></li>
-								<li class="nav-item"><a href="EMPLEADOSREGISTRAR.html" class="nav-link">Registrar</a></li>
-								<li class="nav-item"><a href="EMPLEADOSEDITAR.html" class="nav-link">Editar</a></li>
-
-							<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Vacaciones</div> <i class="icon-menu" title="Tables"></i></li>
-						<li class="nav-item nav-item-submenu">
-
-
-						<li class="nav-item  nav-item-expanded nav-item-open">
-							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Vacaciones</span></a>
-							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="VACACIONESLISTADO.html" class="nav-link active">Listado</a></li>
-
-								<li class="nav-item"><a href="VACACIONESEDITAR.html" class="nav-link">Editar</a></li>
-
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Departamentos</div> <i class="icon-menu" title="Tables"></i></li>
-						<li class="nav-item nav-item-submenu">
-
-						
-						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
-							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Departamentos</span></a>
-							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="DEPTOSLISTADO.html" class="nav-link active">Listado</a></li>
-								<li class="nav-item"><a href="DEPTOSREGISTRAR.html" class="nav-link">Registrar</a></li>
-								<li class="nav-item"><a href="DEPTOSEDITAR.html" class="nav-link">Editar</a></li>
-
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Empresas</div> <i class="icon-menu" title="Tables"></i></li>
-
-						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
-							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Empresas</span></a>
-							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="EMPRESALISTADO.html" class="nav-link active">Listado</a></li>
-								
-								<li class="nav-item"><a href="EMPRESAEDITAR.html" class="nav-link">Editar</a></li>
-
-						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
-							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Transporte</span></a>
-							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								
-								
-								<li class="nav-item"><a href="TRANSPORTE.HTML" class="nav-link">Editar</a></li>
-
-
-
-						<!--
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-copy"></i> <span>Layouts</span></a>
 
@@ -535,15 +492,11 @@
 						<li class="nav-item"><a href="../../../RTL/default/full/index.html" class="nav-link"><i class="icon-width"></i> <span>RTL version</span></a></li>
 
 					-->
-
-					
 						<!-- /main -->
 
 						<!-- Forms -->
 
-						<!--
-
-				
+						<!-- PUESTO POR RANGEL
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Forms</div> <i class="icon-menu" title="Forms"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Form components</span></a>
@@ -599,16 +552,12 @@
 							</ul>
 						</li>
 
-
--->
-				
+					-->
 						<!-- /forms -->
 
 						<!-- Components -->
 
-						<!--
-
-
+						<!-- PUESTO POR RANGEL
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Components</div> <i class="icon-menu" title="Components"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid"></i> <span>Basic components</span></a>
@@ -712,17 +661,12 @@
 							</ul>
 						</li>
 
-				
-
-				-->
+					-->
 						<!-- /components -->
 
 						<!-- Layout -->
 
-						<!--
-
-				
-
+						<!-- PUESTO POR  RANGEL
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Layout</div> <i class="icon-menu" title="Layout options"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-stack2"></i> <span>Page layouts</span></a>
@@ -886,17 +830,12 @@
 							</ul>
 						</li>
 
-
--->
-				
+					-->
 						<!-- /layout -->
 
 						<!-- Data visualization -->
 
-						<!--
-
-				
-
+						<!-- PUESTO POR RANGEL
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Data visualization</div> <i class="icon-menu" title="Data visualization"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-graph"></i> <span>Echarts library</span></a>
@@ -998,13 +937,13 @@
 								<li class="nav-item"><a href="maps_echarts.html" class="nav-link disabled">ECharts maps <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
 							</ul>
 						</li>
--->
-			
+
+					-->
 						<!-- /data visualization -->
 
 						<!-- Extensions -->
 
-<!--
+						<!-- PUESTO POR RANGEL
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Extensions</div> <i class="icon-menu" title="Extensions"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-puzzle4"></i> <span>Extensions</span></a>
@@ -1052,16 +991,12 @@
 						</li>
 
 					-->
-
 						<!-- /extensions -->
 
 						<!-- Tables -->
+					
 
-				
-
-				<!--
-						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Tables</div> <i class="icon-menu" title="Tables"></i></li>
-						<li class="nav-item nav-item-submenu">
+							<!--
 							<a href="#" class="nav-link"><i class="icon-table2"></i> <span>Basic tables</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
 								<li class="nav-item"><a href="table_basic.html" class="nav-link">Basic examples</a></li>
@@ -1070,19 +1005,69 @@
 								<li class="nav-item"><a href="table_styling.html" class="nav-link">Table styling</a></li>
 								<li class="nav-item"><a href="table_elements.html" class="nav-link">Table elements</a></li>
 							</ul>
+
+						-->
+								<!-- Tables -->
+
+								<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Pagina Principal</div> <i class="icon-menu" title="Main"></i></li>
+						<li class="nav-item">
+							<a href="INDEXSISTEMA.html" class="nav-link active">
+								<i class="icon-home4"></i>
+								<span>
+									Dashboard
+								
+								
+
+								</span>
+							</a>
 						</li>
-						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Data tables</span></a>
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Empleados</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">Basic initialization</a></li>
-								<li class="nav-item"><a href="datatable_styling.html" class="nav-link">Basic styling</a></li>
-								<li class="nav-item"><a href="datatable_advanced.html" class="nav-link">Advanced examples</a></li>
+								<li class="nav-item"><a href="EMPLEADOSLISTADO.html" class="nav-link active">Listado</a></li>
+								<li class="nav-item"><a href="EMPLEADOSREGISTRAR.html" class="nav-link">Registrar</a></li>
+								<li class="nav-item"><a href="EMPLEADOSEDITAR.html" class="nav-link">Editar</a></li>
+
+							<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Vacaciones</div> <i class="icon-menu" title="Tables"></i></li>
+						<li class="nav-item nav-item-submenu">
+
+
+						<li class="nav-item  nav-item-expanded nav-item-open">
+							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Vacaciones</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
+								<li class="nav-item"><a href="VACACIONESLISTADO.html" class="nav-link active">Listado</a></li>
+
+								<li class="nav-item"><a href="VACACIONESEDITAR.html" class="nav-link">Editar</a></li>
+
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Departamentos</div> <i class="icon-menu" title="Tables"></i></li>
+						<li class="nav-item nav-item-submenu">
+
+						
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Departamentos</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
+								<li class="nav-item"><a href="DEPTOSLISTADO.html" class="nav-link active">Listado</a></li>
+								<li class="nav-item"><a href="DEPTOSREGISTRAR.html" class="nav-link">Registrar</a></li>
+								<li class="nav-item"><a href="DEPTOSEDITAR.html" class="nav-link">Editar</a></li>
+
+						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Empresas</div> <i class="icon-menu" title="Tables"></i></li>
+
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Empresas</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
+								<li class="nav-item"><a href="EMPRESALISTADO.html" class="nav-link active">Listado</a></li>
+								
+								<li class="nav-item"><a href="EMPRESAEDITAR.html" class="nav-link">Editar</a></li>
+								<!-- puesto por rangel
 								<li class="nav-item"><a href="datatable_sorting.html" class="nav-link">Sorting options</a></li>
 								<li class="nav-item"><a href="datatable_api.html" class="nav-link">Using API</a></li>
 								<li class="nav-item"><a href="datatable_data_sources.html" class="nav-link">Data sources</a></li>
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
+						-->
+
+							<!-- PUESTO POR RANGEL
 							<a href="#" class="nav-link"><i class="icon-alignment-unalign"></i> <span>Data tables extensions</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables extensions">
 								<li class="nav-item"><a href="datatable_extension_reorder.html" class="nav-link">Columns reorder</a></li>
@@ -1104,6 +1089,9 @@
 								</li>
 								<li class="nav-item"><a href="datatable_extension_colvis.html" class="nav-link">Columns visibility</a></li>
 							</ul>
+						-->
+
+						<!-- puesto por ranGEL
 						</li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-file-spreadsheet"></i> <span>Handsontable</span></a>
@@ -1119,6 +1107,8 @@
 								<li class="nav-item"><a href="handsontable_context.html" class="nav-link">Context menu</a></li>
 							</ul>
 						</li>
+
+
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-versions"></i> <span>Responsive tables</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Responsive tables">
@@ -1127,14 +1117,12 @@
 							</ul>
 						</li>
 
-
--->
-					
+					-->
 						<!-- /tables -->
 
 						<!-- Page kits -->
+						<!-- PUESTO POR RANGEL
 
-					<!--
 
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Page kits</div> <i class="icon-menu" title="Page kits"></i></li>
 						<li class="nav-item nav-item-submenu">
@@ -1319,22 +1307,32 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Menu</span> - Dashboard</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Listado de </span> - Empresas</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
-
-					
-				</div>
 <!--
+					<div class="header-elements d-none">
+						<div class="d-flex justify-content-center">
+							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-bars-alt text-primary"></i><span>Statistics</span></a>
+							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-calculator text-primary"></i> <span>Invoices</span></a>
+							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-calendar5 text-primary"></i> <span>Schedule</span></a>
+						</div>
+					</div>
+				</div>
+			-->
+
+				<!--
 				<div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<span class="breadcrumb-item active">Dashboard</span>
+							<a href="datatable_basic.html" class="breadcrumb-item">Datatables</a>
+							<span class="breadcrumb-item active">Basic</span>
 						</div>
 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
+					--->
 
 					<div class="header-elements d-none">
 						<div class="breadcrumb justify-content-center">
@@ -1349,6 +1347,7 @@
 									Settings
 								</a>
 
+
 								<div class="dropdown-menu dropdown-menu-right">
 									<a href="#" class="dropdown-item"><i class="icon-user-lock"></i> Account security</a>
 									<a href="#" class="dropdown-item"><i class="icon-statistics"></i> Analytics</a>
@@ -1361,1736 +1360,586 @@
 					</div>
 				</div>
 			</div>
-
-		-->
 			<!-- /page header -->
 
 
 			<!-- Content area -->
 			<div class="content">
 
-				<!-- Main charts -->
-				<div class="row">
-					<div class="col-xl-7">
-
-						<!-- Traffic sources -->
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Ultimos datos de actualizacion</h6>
-								<div class="header-elements">
-									<div class="form-check form-check-right form-check-switchery form-check-switchery-sm">
-										<label class="form-check-label">
-											
-										</label>
-									</div>
-								</div>
-							</div>
-
-							<div class="card-body py-0">
-								<div class="row">
-									<div class="col-sm-4">
-										<div class="d-flex align-items-center justify-content-center mb-2">
-											<a href="#" class="btn bg-transparent border-teal text-teal rounded-round border-2 btn-icon mr-3">
-												<i class="icon-plus3"></i>
-											</a>
-											<div>
-												<div class="font-weight-semibold">Veces que se han sentado</div>
-												<span class="text-muted">99 Promedio</span>
-											</div>
-										</div>
-										<div class="w-75 mx-auto mb-7" id="new-visitors"></div>
-									</div>
-
-									<div class="col-sm-4">
-										<div class="d-flex align-items-center justify-content-center mb-2">
-											<a href="#" class="btn bg-transparent border-warning-400 text-warning-400 rounded-round border-2 btn-icon mr-3">
-												<i class="icon-watch2"></i>
-											</a>
-											<div>
-												<div class="font-weight-semibold">Tiempo perdido</div>
-												<span class="text-muted">Bastante</span>
-											</div>
-										</div>
-										<div class="w-75 mx-auto mb-3" id="new-sessions"></div>
-									</div>
-
-									<div class="col-sm-4">
-										<div class="d-flex align-items-center justify-content-center mb-2">
-											<a href="#" class="btn bg-transparent border-indigo-400 text-indigo-400 rounded-round border-2 btn-icon mr-3">
-												<i class="icon-people"></i>
-											</a>
-											<div>
-												<div class="font-weight-semibold">Personas paradas</div>
-												<span class="text-muted"><span class="badge badge-mark border-success mr-2"></span> 12 Promedio</span>
-											</div>
-										</div>
-										<div class="w-75 mx-auto mb-3" id="total-online"></div>
-									</div>
-								</div>
-							</div>
-
-							<div class="chart position-relative" id="traffic-sources"></div>
-						</div>
-						<!-- /traffic sources -->
-
-					</div>
-
-					<div class="col-xl-5">
-
-						<!-- Sales stats -->
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Empleados que han solicitado vacaciones</h6>
-								<div class="header-elements">
-									<select class="form-control" id="select_date" data-fouc>
-
-										
-										<option value="val1"> Julio 1 - Agosto</option>
-										<option value="val2"> Nov 1 - Dic28</option>
-										<option value="val3"> Sept 1 - Oct 30</option>
-									
-
-									
-									</select>
-			                	</div>
-							</div>
-
-							<div class="card-body py-0">
-								<div class="row text-center">
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">20</h5>
-											<span class="text-muted font-size-sm">nuevas solicitudes</span>
-										</div>
-									</div>
-
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">4</h5>
-											<span class="text-muted font-size-sm">Solicitudes aceptadas</span>
-										</div>
-									</div>
-
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">5</h5>
-											<span class="text-muted font-size-sm">Empleados fuera de servicio</span>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="chart mb-2" id="app_sales"></div>
-							<div class="chart" id="monthly-sales-stats"></div>
-						</div>
-						<!-- /sales stats -->
-
-					</div>
-				</div>
-				<!-- /main charts -->
-
-
-				<!-- Dashboard content -->
-				<div class="row">
-					<div class="col-xl-8">
-
-						<!-- Marketing campaigns -->
-
-						<!--
-						<div class="card">
-							<div class="card-header header-elements-sm-inline">
-								<h6 class="card-title">Marketing campaigns</h6>
-								<div class="header-elements">
-									<span class="badge bg-success badge-pill">28 active</span>
-									<div class="list-icons ml-3">
-				                		<div class="list-icons-item dropdown">
-				                			<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-											<div class="dropdown-menu">
-												<a href="#" class="dropdown-item"><i class="icon-sync"></i> Update data</a>
-												<a href="#" class="dropdown-item"><i class="icon-list-unordered"></i> Detailed log</a>
-												<a href="#" class="dropdown-item"><i class="icon-pie5"></i> Statistics</a>
-												<div class="dropdown-divider"></div>
-												<a href="#" class="dropdown-item"><i class="icon-cross3"></i> Clear list</a>
-											</div>
-				                		</div>
-				                	</div>
-			                	</div>
-							</div>
-
-							<div class="card-body d-sm-flex align-items-sm-center justify-content-sm-between flex-sm-wrap">
-								<div class="d-flex align-items-center mb-3 mb-sm-0">
-									<div id="campaigns-donut"></div>
-									<div class="ml-3">
-										<h5 class="font-weight-semibold mb-0">38,289 <span class="text-success font-size-sm font-weight-normal"><i class="icon-arrow-up12"></i> (+16.2%)</span></h5>
-										<span class="badge badge-mark border-success mr-1"></span> <span class="text-muted">May 12, 12:30 am</span>
-									</div>
-								</div>
-
-								<div class="d-flex align-items-center mb-3 mb-sm-0">
-									<div id="campaign-status-pie"></div>
-									<div class="ml-3">
-										<h5 class="font-weight-semibold mb-0">2,458 <span class="text-danger font-size-sm font-weight-normal"><i class="icon-arrow-down12"></i> (-4.9%)</span></h5>
-										<span class="badge badge-mark border-danger mr-1"></span> <span class="text-muted">Jun 4, 4:00 am</span>
-									</div>
-								</div>
-
-								<div>
-									<a href="#" class="btn bg-indigo-300"><i class="icon-statistics mr-2"></i> View report</a>
-								</div>
-							</div>
-
-							<div class="table-responsive">
-								<table class="table text-nowrap">
-									<thead>
-										<tr>
-											<th>Campaign</th>
-											<th>Client</th>
-											<th>Changes</th>
-											<th>Budget</th>
-											<th>Status</th>
-											<th class="text-center" style="width: 20px;"><i class="icon-arrow-down12"></i></th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr class="table-active table-border-double">
-											<td colspan="5">Today</td>
-											<td class="text-right">
-												<span class="progress-meter" id="today-progress" data-progress="30"></span>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/facebook.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Facebook</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-blue mr-1"></span>
-															02:00 - 03:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">Mintlime</span></td>
-											<td><span class="text-success-600"><i class="icon-stats-growth2 mr-2"></i> 2.43%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$5,489</h6></td>
-											<td><span class="badge bg-blue">Active</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/youtube.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Youtube videos</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-danger mr-1"></span>
-															13:00 - 14:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">CDsoft</span></td>
-											<td><span class="text-success-600"><i class="icon-stats-growth2 mr-2"></i> 3.12%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$2,592</h6></td>
-											<td><span class="badge bg-danger">Closed</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/spotify.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Spotify ads</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-grey-400 mr-1"></span>
-															10:00 - 11:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">Diligence</span></td>
-											<td><span class="text-danger"><i class="icon-stats-decline2 mr-2"></i> - 8.02%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$1,268</h6></td>
-											<td><span class="badge bg-grey-400">On hold</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/twitter.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Twitter ads</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-grey-400 mr-1"></span>
-															04:00 - 05:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">Deluxe</span></td>
-											<td><span class="text-success-600"><i class="icon-stats-growth2 mr-2"></i> 2.78%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$7,467</h6></td>
-											<td><span class="badge bg-grey-400">On hold</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr class="table-active table-border-double">
-											<td colspan="5">Yesterday</td>
-											<td class="text-right">
-												<span class="progress-meter" id="yesterday-progress" data-progress="65"></span>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/bing.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Bing campaign</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-success mr-1"></span>
-															15:00 - 16:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">Metrics</span></td>
-											<td><span class="text-danger"><i class="icon-stats-decline2 mr-2"></i> - 5.78%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$970</h6></td>
-											<td><span class="badge bg-success-400">Pending</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/amazon.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Amazon ads</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-danger mr-1"></span>
-															18:00 - 19:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">Blueish</span></td>
-											<td><span class="text-success-600"><i class="icon-stats-growth2 mr-2"></i> 6.79%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$1,540</h6></td>
-											<td><span class="badge bg-blue">Active</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/dribbble.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Dribbble ads</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-blue mr-1"></span>
-															20:00 - 21:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">Teamable</span></td>
-											<td><span class="text-danger"><i class="icon-stats-decline2 mr-2"></i> 9.83%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$8,350</h6></td>
-											<td><span class="badge bg-danger">Closed</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-						</div>
-
-					-->
-						<!-- /marketing campaigns -->
-
-
-						<!-- Quick stats boxes -->
-						<div class="row">
-							<div class="col-lg-4">
-
-								<!-- Members online -->
-
-								<!--
-								<div class="card bg-teal-400">
-									<div class="card-body">
-										<div class="d-flex">
-											<h3 class="font-weight-semibold mb-0">3,450</h3>
-											<span class="badge bg-teal-800 badge-pill align-self-center ml-auto">+53,6%</span>
-					                	</div>
-					                	
-					                	<div>
-											Members online
-											<div class="font-size-sm opacity-75">489 avg</div>
-										</div>
-									</div>
-
-									<div class="container-fluid">
-										<div id="members-online"></div>
-									</div>
-								</div>
-
-							-->
-								<!-- /members online -->
-
-							</div>
-
-							<div class="col-lg-4">
-
-								<!-- Current server load -->
-
-								<!--
-								<div class="card bg-pink-400">
-									<div class="card-body">
-										<div class="d-flex">
-											<h3 class="font-weight-semibold mb-0">49.4%</h3>
-											<div class="list-icons ml-auto">
-						                		<div class="list-icons-item dropdown">
-						                			<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cog3"></i></a>
-													<div class="dropdown-menu dropdown-menu-right">
-														<a href="#" class="dropdown-item"><i class="icon-sync"></i> Update data</a>
-														<a href="#" class="dropdown-item"><i class="icon-list-unordered"></i> Detailed log</a>
-														<a href="#" class="dropdown-item"><i class="icon-pie5"></i> Statistics</a>
-														<a href="#" class="dropdown-item"><i class="icon-cross3"></i> Clear list</a>
-													</div>
-						                		</div>
-					                		</div>
-					                	</div>
-					                	
-					                	<div>
-											Current server load
-											<div class="font-size-sm opacity-75">34.6% avg</div>
-										</div>
-									</div>
-
-									<div id="server-load"></div>
-								</div>
-
-							-->
-								<!-- /current server load -->
-
-							</div>
-
-							<div class="col-lg-4">
-
-								<!-- Today's revenue -->
-
-								<!--
-								<div class="card bg-blue-400">
-									<div class="card-body">
-										<div class="d-flex">
-											<h3 class="font-weight-semibold mb-0">$18,390</h3>
-											<div class="list-icons ml-auto">
-						                		<a class="list-icons-item" data-action="reload"></a>
-						                	</div>
-					                	</div>
-					                	
-					                	<div>
-											Today's revenue
-											<div class="font-size-sm opacity-75">$37,578 avg</div>
-										</div>
-									</div>
-
-									<div id="today-revenue"></div>
-								</div>
-
-							-->
-								<!-- /today's revenue -->
-
-							</div>
-						</div>
-						<!-- /quick stats boxes -->
-
-
-						<!-- Support tickets -->
-						<!--
-						<div class="card">
-							<div class="card-header header-elements-sm-inline">
-								<h6 class="card-title">Support tickets</h6>
-								<div class="header-elements">
-									<a class="text-default daterange-ranges font-weight-semibold cursor-pointer dropdown-toggle">
-										<i class="icon-calendar3 mr-2"></i>
-										<span></span>
-									</a>
-			                	</div>
-							</div>
-
-							<div class="card-body d-md-flex align-items-md-center justify-content-md-between flex-md-wrap">
-								<div class="d-flex align-items-center mb-3 mb-md-0">
-									<div id="tickets-status"></div>
-									<div class="ml-3">
-										<h5 class="font-weight-semibold mb-0">14,327 <span class="text-success font-size-sm font-weight-normal"><i class="icon-arrow-up12"></i> (+2.9%)</span></h5>
-										<span class="badge badge-mark border-success mr-1"></span> <span class="text-muted">Jun 16, 10:00 am</span>
-									</div>
-								</div>
-
-								<div class="d-flex align-items-center mb-3 mb-md-0">
-									<a href="#" class="btn bg-transparent border-indigo-400 text-indigo-400 rounded-round border-2 btn-icon">
-										<i class="icon-alarm-add"></i>
-									</a>
-									<div class="ml-3">
-										<h5 class="font-weight-semibold mb-0">1,132</h5>
-										<span class="text-muted">total tickets</span>
-									</div>
-								</div>
-
-								<div class="d-flex align-items-center mb-3 mb-md-0">
-									<a href="#" class="btn bg-transparent border-indigo-400 text-indigo-400 rounded-round border-2 btn-icon">
-										<i class="icon-spinner11"></i>
-									</a>
-									<div class="ml-3">
-										<h5 class="font-weight-semibold mb-0">06:25:00</h5>
-										<span class="text-muted">response time</span>
-									</div>
-								</div>
-
-								<div>
-									<a href="#" class="btn bg-teal-400"><i class="icon-statistics mr-2"></i> Report</a>
-								</div>
-							</div>
-
-							<div class="table-responsive">
-								<table class="table text-nowrap">
-									<thead>
-										<tr>
-											<th style="width: 50px">Due</th>
-											<th style="width: 300px;">User</th>
-											<th>Description</th>
-											<th class="text-center" style="width: 20px;"><i class="icon-arrow-down12"></i></th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr class="table-active table-border-double">
-											<td colspan="3">Active tickets</td>
-											<td class="text-right">
-												<span class="badge bg-blue badge-pill">24</span>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<h6 class="mb-0">12</h6>
-												<div class="font-size-sm text-muted line-height-1">hours</div>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-teal-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Annabelle Doney</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-blue mr-1"></span> Active</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div class="font-weight-semibold">[#1183] Workaround for OS X selects printing bug</div>
-													<span class="text-muted">Chrome fixed the bug several versions ago, thus rendering this...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-checkmark3 text-success"></i> Resolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<h6 class="mb-0">16</h6>
-												<div class="font-size-sm text-muted line-height-1">hours</div>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Chris Macintyre</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-blue mr-1"></span> Active</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div class="font-weight-semibold">[#1249] Vertically center carousel controls</div>
-													<span class="text-muted">Try any carousel control and reduce the screen width below...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-checkmark3 text-success"></i> Resolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<h6 class="mb-0">20</h6>
-												<div class="font-size-sm text-muted line-height-1">hours</div>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-blue rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Robert Hauber</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-blue mr-1"></span> Active</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div class="font-weight-semibold">[#1254] Inaccurate small pagination height</div>
-													<span class="text-muted">The height of pagination elements is not consistent with...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-checkmark3 text-success"></i> Resolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<h6 class="mb-0">40</h6>
-												<div class="font-size-sm text-muted line-height-1">hours</div>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-warning-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Robert Hauber</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-blue mr-1"></span> Active</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div class="font-weight-semibold">[#1184] Round grid column gutter operations</div>
-													<span class="text-muted">Left rounds up, right rounds down. should keep everything...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-checkmark3 text-success"></i> Resolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr class="table-active table-border-double">
-											<td colspan="3">Resolved tickets</td>
-											<td class="text-right">
-												<span class="badge bg-success badge-pill">42</span>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<i class="icon-checkmark3 text-success"></i>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-success-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Alan Macedo</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-success mr-1"></span> Resolved</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div>[#1046] Avoid some unnecessary HTML string</div>
-													<span class="text-muted">Rather than building a string of HTML and then parsing it...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<i class="icon-checkmark3 text-success"></i>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-pink-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Brett Castellano</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-success mr-1"></span> Resolved</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div>[#1038] Update json configuration</div>
-													<span class="text-muted">The <code>files</code> property is necessary to override the files property...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<i class="icon-checkmark3 text-success"></i>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Roxanne Forbes</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-success mr-1"></span> Resolved</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div>[#1034] Tooltip multiple event</div>
-													<span class="text-muted">Fix behavior when using tooltips and popovers that are...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr class="table-active table-border-double">
-											<td colspan="3">Closed tickets</td>
-											<td class="text-right">
-												<span class="badge bg-danger badge-pill">37</span>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<i class="icon-cross2 text-danger-400"></i>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Mitchell Sitkin</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Closed</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div>[#1040] Account for static form controls in form group</div>
-													<span class="text-muted">Resizes control label's font-size and account for the standard...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-spinner11 text-grey"></i> Reopen issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<i class="icon-cross2 text-danger"></i>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-brown-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Katleen Jensen</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Closed</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div>[#1038] Proper sizing of form control feedback</div>
-													<span class="text-muted">Feedback icon sizing inside a larger/smaller form-group...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-spinner11 text-grey"></i> Reopen issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-						</div>
-					-->
-						<!-- /support tickets -->
-
-
-						<!-- Latest posts -->
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Topicos recientes.</h6>
-								<div class="header-elements">
-									<div class="list-icons">
-				                		<a class="list-icons-item" data-action="collapse"></a>
-				                		<a class="list-icons-item" data-action="reload"></a>
-				                		<a class="list-icons-item" data-action="remove"></a>
-				                	</div>
-			                	</div>
+				<!-- Basic datatable -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Listado de empresas</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
 		                	</div>
-
-							<div class="card-body pb-0">
-								<div class="row">
-									<div class="col-xl-6">
-										<div class="media flex-column flex-sm-row mt-0 mb-3">
-				        					<div class="mr-sm-3 mb-2 mb-sm-0">
-												<div class="card-img-actions">
-													<a href="#">
-														<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
-														<span class="card-img-actions-overlay card-img"><i class="icon-play3 icon-2x"></i></span>
-													</a>
-												</div>
-											</div>
-
-				        					<div class="media-body">
-												<h6 class="media-title"><a href="#">Ayuda psicologia para personas de menos de 1.40 m.</a></h6>
-					                    		<ul class="list-inline list-inline-dotted text-muted mb-2">
-					                    			<li class="list-inline-item"><i class="icon-book-play mr-2"></i> Videos</li>
-					                    		</ul>
-												Todo comenzo cuando naci...
-											</div>
-										</div>
-
-										<div class="media flex-column flex-sm-row mt-0 mb-3">
-				        					<div class="mr-sm-3 mb-2 mb-sm-0">
-												<div class="card-img-actions">
-													<a href="#">
-														<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
-														<span class="card-img-actions-overlay card-img"><i class="icon-play3 icon-2x"></i></span>
-													</a>
-												</div>
-											</div>
-
-				        					<div class="media-body">
-												<h6 class="media-title"><a href="#">Ayuda, me quede encerrado en el refrigerador</a></h6>
-					                    		<ul class="list-inline list-inline-dotted text-muted mb-2">
-					                    			<li class="list-inline-item"><i class="icon-book-play mr-2"></i> Videos</li>
-					                    		</ul>
-												se quebro la manija y no me deja abrir, hace frio, ayuda, porfavor.
-											</div>
-										</div>
-									</div>
-
-									<div class="col-xl-6">
-										<div class="media flex-column flex-sm-row mt-0 mb-3">
-				        					<div class="mr-sm-3 mb-2 mb-sm-0">
-												<div class="card-img-actions">
-													<a href="#">
-														<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
-														<span class="card-img-actions-overlay card-img"><i class="icon-play3 icon-2x"></i></span>
-													</a>
-												</div>
-											</div>
-
-				        					<div class="media-body">
-												<h6 class="media-title"><a href="#">top 5 chistes de chuponsito</a></h6>
-					                    		<ul class="list-inline list-inline-dotted text-muted mb-2">
-					                    			<li class="list-inline-item"><i class="icon-book-play mr-2"></i> Videos</li>
-					                    		</ul>
-												"Como se llama la mama de cepillin?, cepillon", eso y mas
-											</div>
-										</div>
-
-										<div class="media flex-column flex-sm-row mt-0 mb-3">
-				        					<div class="mr-sm-3 mb-2 mb-sm-0">
-												<div class="card-img-actions">
-													<a href="#">
-														<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
-														<span class="card-img-actions-overlay card-img"><i class="icon-play3 icon-2x"></i></span>
-													</a>
-												</div>
-											</div>
-
-				        					<div class="media-body">
-												<h6 class="media-title"><a href="#">Servicio a clientes y otras funciones</a></h6>
-					                    		<ul class="list-inline list-inline-dotted text-muted mb-2">
-					                    			<li class="list-inline-item"><i class="icon-book-play mr-2"></i> Seccion FAQ</li>
-					                    		</ul>
-												Â¿Tiene dudas acerca de los servicios?, no espere mas...											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- /latest posts -->
-
+	                	</div>
 					</div>
 
-					<div class="col-xl-4">
+					<div class="card-body">
+						Las<code>Empresas</code> </strong>
+					</div>
 
-						<!-- Progress counters -->
-						<div class="row">
-							<div class="col-sm-6">
+					<table class="table datatable-basic">
+						<thead>
+							<tr>
+								
 
-								<!-- Available hours -->
-								<div class="card text-center">
-									<div class="card-body">
+								<th>ID Empresa</th>
+								<th>Nombre</th>
+								<th>Numero de Telefono</th>
+								<th>Correo de contacto</th>
+								<th>Ubicacion</th>
+								<th>Direccion</th>
+								<th>CP</th>
+								<th>Rep Legal</th>
+								
+						
 
-					                	<!-- Progress counter -->
-										<div class="svg-center position-relative" id="hours-available-progress"></div>
-										<!-- /progress counter -->
+									<!--
+								<th class="text-center">Exportar</th>
+							-->
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
 
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>Tula, Tamaulipas</td>
+								<td>7269 College Lane</td>
+								<td>8453</td>
+								<th>Lic. Benito Camelo</th>
 
-										<!-- Bars -->
-										<div id="hours-available-bars"></div>
-										<!-- /bars -->
+								
+								<!--
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
 
-									</div>
-								</div>
-								<!-- /available hours -->
-
-							</div>
-
-							<div class="col-sm-6">
-
-								<!-- Productivity goal -->
-								<div class="card text-center">
-									<div class="card-body">
-
-										<!-- Progress counter -->
-										<div class="svg-center position-relative" id="goal-progress"></div>
-										<!-- /progress counter -->
-
-										<!-- Bars -->
-										<div id="goal-bars"></div>
-										<!-- /bars -->
-
-									</div>
-								</div>
-								<!-- /productivity goal -->
-
-							</div>
-						</div>
-						<!-- /progress counters -->
-
-
-						<!-- Daily sales -->
-
-						<!--
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Daily sales stats</h6>
-								<div class="header-elements">
-									<span class="font-weight-bold text-danger-600 ml-2">$4,378</span>
-									<div class="list-icons ml-3">
-				                		<div class="list-icons-item dropdown">
-				                			<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cog3"></i></a>
 											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-sync"></i> Update data</a>
-												<a href="#" class="dropdown-item"><i class="icon-list-unordered"></i> Detailed log</a>
-												<a href="#" class="dropdown-item"><i class="icon-pie5"></i> Statistics</a>
-												<div class="dropdown-divider"></div>
-												<a href="#" class="dropdown-item"><i class="icon-cross3"></i> Clear list</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
 											</div>
-				                		</div>
-				                	</div>
-								</div>
-							</div>
-
-							<div class="card-body">
-								<div class="chart" id="sales-heatmap"></div>
-							</div>
-
-							<div class="table-responsive">
-								<table class="table text-nowrap">
-									<thead>
-										<tr>
-											<th class="w-100">Application</th>
-											<th>Time</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-primary-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Sigma application</a>
-														<div class="text-muted font-size-sm"><i class="icon-checkmark3 font-size-sm mr-1"></i> New order</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<span class="text-muted font-size-sm">06:28 pm</span>
-											</td>
-											<td>
-												<h6 class="font-weight-semibold mb-0">$49.90</h6>
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-danger-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Alpha application</a>
-														<div class="text-muted font-size-sm"><i class="icon-spinner11 font-size-sm mr-1"></i> Renewal</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<span class="text-muted font-size-sm">04:52 pm</span>
-											</td>
-											<td>
-												<h6 class="font-weight-semibold mb-0">$90.50</h6>
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-indigo-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Delta application</a>
-														<div class="text-muted font-size-sm"><i class="icon-lifebuoy font-size-sm mr-1"></i> Support</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<span class="text-muted font-size-sm">01:26 pm</span>
-											</td>
-											<td>
-												<h6 class="font-weight-semibold mb-0">$60.00</h6>
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-success-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Omega application</a>
-														<div class="text-muted font-size-sm"><i class="icon-lifebuoy font-size-sm mr-1"></i> Support</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<span class="text-muted font-size-sm">11:46 am</span>
-											</td>
-											<td>
-												<h6 class="font-weight-semibold mb-0">$55.00</h6>
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-danger-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Alpha application</a>
-														<div class="text-muted font-size-sm"><i class="icon-spinner11 font-size-sm mr-2"></i> Renewal</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<span class="text-muted font-size-sm">10:29 am</span>
-											</td>
-											<td>
-												<h6 class="font-weight-semibold mb-0">$90.50</h6>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-						</div>
-
-					-->
-						<!-- /daily sales -->
-
-
-						<!-- My messages -->
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Mensajes</h6>
-								<div class="header-elements">
-									
-									<span class="badge bg-success align-self-start ml-3">Online</span>
-								</div>
-							</div>
-
-							<!-- Numbers -->
-							<div class="card-body py-0">
-								<div class="row text-center">
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">10</h5>
-											<span class="text-muted font-size-sm">Esta semana</span>
 										</div>
 									</div>
-
-									
-
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">20</h5>
-											<span class="text-muted font-size-sm">Todos los mensajes</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- /numbers -->
-
-
-							<!-- Area chart -->
-							<div id="messages-stats"></div>
-							<!-- /area chart -->
-
-
-							<!-- Tabs -->
-
-							<!--
-		                	<ul class="nav nav-tabs nav-tabs-solid nav-justified bg-indigo-400 border-x-0 border-bottom-0 border-top-indigo-300 mb-0">
-								<li class="nav-item">
-									<a href="#messages-tue" class="nav-link font-size-sm text-uppercase active" data-toggle="tab">
-										Tuesday
-									</a>
-								</li>
-
-								<li class="nav-item">
-									<a href="#messages-mon" class="nav-link font-size-sm text-uppercase" data-toggle="tab">
-										Monday
-									</a>
-								</li>
-
-								<li class="nav-item">
-									<a href="#messages-fri" class="nav-link font-size-sm text-uppercase" data-toggle="tab">
-										Friday
-									</a>
-								</li>
-							</ul>
-
+								</td>
+							</tr>
 						-->
-							<!-- /tabs -->
 
+							
+							</tr>
+							<tr>
+								<td>14</td>
+								<td>Tacos "San Luis"</td>
+								<td>1356748</a></td>
+								<td>tkssnlis@gmail.com</td>
+								<td>Matamoros</td>
+								<td>7269 College Lane</td>
+								<td>5457</td>
+								<th>Lic. Benito Camelo</th>
+								<!--
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
 
-							<!-- Tabs content -->
-							<div class="tab-content card-body">
-								<div class="tab-pane active fade show" id="messages-tue">
-									<ul class="media-list">
-										<li class="media">
-											<div class="mr-3 position-relative">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-												<span class="badge bg-danger-400 badge-pill badge-float border-2 border-white">8</span>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
 											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Juanito</a>
-													<span class="font-size-sm text-muted">14:58</span>
-												</div>
-
-												Excelente calidad.
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3 position-relative">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-												<span class="badge bg-danger-400 badge-pill badge-float border-2 border-white">6</span>
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Manganito</a>
-													<span class="font-size-sm text-muted">12:16</span>
-												</div>
-
-												Estoy ancioso deberas...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Perenganito</a>
-													<span class="font-size-sm text-muted">09:48</span>
-												</div>
-
-												QUe buen servicio
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Noobmaster69</a>
-													<span class="font-size-sm text-muted">05:54</span>
-												</div>
-
-												Bruto el que lo lea
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">												
-												<div class="d-flex justify-content-between">
-													<a href="#">xXxmataviejitasxXx</a>
-													<span class="font-size-sm text-muted">01:43</span>
-												</div>
-
-												Excelente calidad del servicio, pero la sala de espera huele a obo.
-											</div>
-										</li>
-									</ul>
-								</div>
-
-
-<!--
-								<div class="tab-pane fade" id="messages-mon">
-									<ul class="media-list">
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Isak Temes</a>
-													<span class="font-size-sm text-muted">Tue, 19:58</span>
-												</div>
-
-												Reasonable palpably rankly expressly grimy...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Vittorio Cosgrove</a>
-													<span class="font-size-sm text-muted">Tue, 16:35</span>
-												</div>
-
-												Arguably therefore more unexplainable fumed...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Hilary Talaugon</a>
-													<span class="font-size-sm text-muted">Tue, 12:16</span>
-												</div>
-
-												Nicely unlike porpoise a kookaburra past more...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Bobbie Seber</a>
-													<span class="font-size-sm text-muted">Tue, 09:20</span>
-												</div>
-
-												Before visual vigilantly fortuitous tortoise...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Walther Laws</a>
-													<span class="font-size-sm text-muted">Tue, 03:29</span>
-												</div>
-
-												Far affecting more leered unerringly dishonest...
-											</div>
-										</li>
-									</ul>
-								</div>
-
-								<div class="tab-pane fade" id="messages-fri">
-									<ul class="media-list">
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Owen Stretch</a>
-													<span class="font-size-sm text-muted">Mon, 18:12</span>
-												</div>
-
-												Tardy rattlesnake seal raptly earthworm...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Jenilee Mcnair</a>
-													<span class="font-size-sm text-muted">Mon, 14:03</span>
-												</div>
-
-												Since hello dear pushed amid darn trite...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Alaster Jain</a>
-													<span class="font-size-sm text-muted">Mon, 13:59</span>
-												</div>
-
-												Dachshund cardinal dear next jeepers well...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Sigfrid Thisted</a>
-													<span class="font-size-sm text-muted">Mon, 09:26</span>
-												</div>
-
-												Lighted wolf yikes less lemur crud grunted...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Sherilyn Mckee</a>
-													<span class="font-size-sm text-muted">Mon, 06:38</span>
-												</div>
-
-												Less unicorn a however careless husky...
-											</div>
-										</li>
-									</ul>
-								</div>
-							</div>
-
-						-->
-							<!-- /tabs content -->
-
-						</div>
-						<!-- /my messages -->
-
-
-						<!-- Daily financials -->
-
-						<!--
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Daily financials</h6>
-								<div class="header-elements">
-									<div class="form-check form-check-inline form-check-right form-check-switchery form-check-switchery-sm">
-										<label class="form-check-label">
-											<input type="checkbox" class="form-input-switchery" id="realtime" checked data-fouc>
-											Realtime
-										</label>
+										</div>
 									</div>
-									<span class="badge bg-danger-400 badge-pill">+86</span>
-								</div>
-							</div>
+								</td>
+							</tr>
+						-->
 
-							<div class="card-body">
-								<div class="chart mb-3" id="bullets"></div>
+							</tr>
+							<tr>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>San Fernando</td>
+								<td>7269 College Lane</td>
+								<td>9765</td>
+								<th>Lic. Benito Camelo</th>
+								
 
-								<ul class="media-list">
-									<li class="media">
-										<div class="mr-3">
-											<a href="#" class="btn bg-transparent border-pink text-pink rounded-round border-2 btn-icon"><i class="icon-statistics"></i></a>
-										</div>
-										
-										<div class="media-body">
-											Stats for July, 6: <span class="font-weight-semibold">1938</span> orders, <span class="font-weight-semibold text-danger">$4220</span> revenue
-											<div class="text-muted">2 hours ago</div>
-										</div>
+								<!--
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
 
-										<div class="ml-3 align-self-center">
-											<a href="#" class="list-icons-item"><i class="icon-more"></i></a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
+											</div>
 										</div>
-									</li>
+									</div>
+								</td>
+							</tr>
+						-->
 
-									<li class="media">
-										<div class="mr-3">
-											<a href="#" class="btn bg-transparent border-success text-success rounded-round border-2 btn-icon"><i class="icon-checkmark3"></i></a>
-										</div>
-										
-										<div class="media-body">
-											Invoices <a href="#">#4732</a> and <a href="#">#4734</a> have been paid
-											<div class="text-muted">Dec 18, 18:36</div>
-										</div>
 
-										<div class="ml-3 align-self-center">
-											<a href="#" class="list-icons-item"><i class="icon-more"></i></a>
-										</div>
-									</li>
+							</tr>
+							<tr>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>Madero</td>
+								<td>7269 College Lane</td>
+								<td>9875</td>
+								<th>Lic. Benito Camelo</th>
+								
+								<!--
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
 
-									<li class="media">
-										<div class="mr-3">
-											<a href="#" class="btn bg-transparent border-primary text-primary rounded-round border-2 btn-icon"><i class="icon-alignment-unalign"></i></a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
+											</div>
 										</div>
-										
-										<div class="media-body">
-											Affiliate commission for June has been paid
-											<div class="text-muted">36 minutes ago</div>
-										</div>
+									</div>
+								</td>
+							</tr>
+						-->
 
-										<div class="ml-3 align-self-center">
-											<a href="#" class="list-icons-item"><i class="icon-more"></i></a>
-										</div>
-									</li>
+							</tr>
+							<tr>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>Tmpico</td>
+								<td>7269 College Lane</td>
+								<td>6789</td>
+								<th>Lic. Benito Camelo</th>
+								
+								
+								<!--
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
 
-									<li class="media">
-										<div class="mr-3">
-											<a href="#" class="btn bg-transparent border-warning-400 text-warning-400 rounded-round border-2 btn-icon"><i class="icon-spinner11"></i></a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
+											</div>
 										</div>
+									</div>
+								</td>
+							</tr>
+						-->
 
-										<div class="media-body">
-											Order <a href="#">#37745</a> from July, 1st has been refunded
-											<div class="text-muted">4 minutes ago</div>
+
+							
+							
+							</tr>
+							<tr>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>Altamira</td>
+								<td>7269 College Lane</td>
+								<td>2345</td>
+								<th>Lic. Benito Camelo</th>
+
+								</tr>
+							<tr>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>Aldama</td>
+								<td>7269 College Lane</td>
+								<td>3576</td>
+								<th>Lic. Benito Camelo</th>
+								
+
+								</tr>
+							<tr>
+								<td>111</td>
+								<td>Sillas Poderosas</td>
+								<td>111222333</a></td>
+								<td>sillaspod@gmail.com</td>
+								<td>Reynosa</td>
+								<td>7269 College Lane</td>
+								<td>8653</td>
+								<th>Lic. Benito Camelo</th>
+								
+								
+
+								<!--
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
+											</div>
 										</div>
+									</div>
+								</td>
+							</tr>
+						-->
+								<!--
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
 
-										<div class="ml-3 align-self-center">
-											<a href="#" class="list-icons-item"><i class="icon-more"></i></a>
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Exportar a  .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Exportar a  .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Exportar a .doc</a>
+											</div>
 										</div>
-									</li>
-
-									<li class="media">
-										<div class="mr-3">
-											<a href="#" class="btn bg-transparent border-teal text-teal rounded-round border-2 btn-icon"><i class="icon-redo2"></i></a>
-										</div>
-										
-										<div class="media-body">
-											Invoice <a href="#">#4769</a> has been sent to <a href="#">Robert Smith</a>
-											<div class="text-muted">Dec 12, 05:46</div>
-										</div>
-
-										<div class="ml-3 align-self-center">
-											<a href="#" class="list-icons-item"><i class="icon-more"></i></a>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-
-					-->
-						<!-- /daily financials -->
-
-					</div>
+									</div>
+								</td>
+							</tr>
+						-->
+													</tr>
+						</tbody>
+					</table>
 				</div>
-				<!-- /dashboard content -->
+
+				<button type="button" class="btn bg-teal-400 btn-labeled btn-labeled-center" data-toggle="modal" data-target="#modal_form_horizontal">Agregar
+
+
+
+								
+
+
+				<!-- /basic datatable -->
+
+
+				<!-- Pagination types -->
+				<!--
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Departamento</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						Los departamentos dentro del sistema, donde estan los <code>Trabajadores</code>.
+					</div>
+
+					<table class="table datatable-pagination">
+						<thead>
+							<tr>
+								<th>Nombre Depto</th>
+								<th>Actividad</th>
+								<th>Ubicacion</th>
+								<th>Num Contacto</th>
+								
+								<th>Estado</th>
+								<th class="text-center">Actions</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Marth</td>
+								<td><a href="#">Enright</a></td>
+								<td>Traffic Court Referee</td>
+								<td>22 Jun 1972</td>
+								<td><span class="badge badge-success">Active</span></td>
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+																	</tbody>
+					</table>
+				</div>
+
+-->
+				<!-- /pagination types -->
+
+
+				<!-- State saving -->
+
+				<!--
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Empresa</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						Empresa donde<code> labora </code> el trabajador.<code></code> 
+					</div>
+
+					<table class="table datatable-save-state">
+						<thead>
+							<tr>
+								<th>Nombre Empresa</th>
+								<th>Giro</th>
+								<th>Correo</th>
+								<th>Numero de contacto</th>
+								<th>Estado</th>
+								<th class="text-center">Exportar</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Marth</td>
+								<td><a href="#">Enright</a></td>
+								<td>Traffic Court Referee</td>
+								<td>22 Jun 1972</td>
+								<td><span class="badge badge-success">Active</span></td>
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>				
+							
+
+							<tr>
+								<td>Cicely</td>
+								<td>Sigler</td>
+								<td><a href="#">Senior Research Officer</a></td>
+								<td>15 Mar 1960</td>
+								<td><span class="badge badge-info">Pending</span></td>
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			-->
+
+
+				<!-- /state saving -->
+
+
+				<!-- Scrollable datatable -->
+				<!--puesto por rangel
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Habilidades</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						Habilidades que debe <code>desempeñar</code> el personal durante su actividades.
+					</div>
+
+					<table class="table datatable-scroll-y" width="100%">
+						<thead>
+							<tr>
+								<th>Nombre</th>
+								<th>Habilidad</th>
+								<th>Job Title</th>
+								<th>DOB</th>
+								<th>Status</th>
+								<th class="text-center">Actions</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Marth</td>
+								<td><a href="#">Enright</a></td>
+								<td>Traffic Court Referee</td>
+								<td>22 Jun 1972</td>
+								<td><span class="badge badge-success">Active</span></td>
+								<td class="text-center">
+									<div class="list-icons">
+										<div class="dropdown">
+											<a href="#" class="list-icons-item" data-toggle="dropdown">
+												<i class="icon-menu9"></i>
+											</a>
+
+											<div class="dropdown-menu dropdown-menu-right">
+												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
+												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>					
+
+						</tbody>
+					</table>
+				</div>
+			-->
+				<!-- /scrollable datatable -->
 
 			</div>
 			<!-- /content area -->
+
+			<div id="modal_form_horizontal" class="modal fade" tabindex="-1">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Agregar registro</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<form action="#" class="form-horizontal">
+								<div class="modal-body">
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">ID Empresa</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="ID" class="form-control border-primary border-2">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Nombre</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="EjemploInc" class="form-control border-primary border-2">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Numero  de telefono</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="99887766" class="form-control border-primary border-2">
+											<span class="form-text text-muted">name@domain.com</span>
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Correo de contacto</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Ejemplo@ejemplo.com" data-mask="+99-99-9999-9999" class="form-control border-primary border-2">
+											<span class="form-text text-muted">+99-99-9999-9999</span>
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Ubicacion</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Estado" class="form-control border-primary border-2">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Direccion</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Calle Ejemplo, Numero" class="form-control border-primary border-2">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Cp</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Codigo Postal" class="form-control border-primary border-2">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">RepLegal</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Representante Legal" class="form-control border-primary border-2">
+										</div>
+									</div>
+
+
+
+
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-link" data-dismiss="modal">Cancelar</button>
+									<button type="submit" class="btn bg-primary">Guardar Cambios</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
 
 
 			<!-- Footer -->
@@ -3104,7 +1953,7 @@
 
 				<div class="navbar-collapse collapse" id="navbar-footer">
 					<span class="navbar-text">
-						&copy; 2015 - 2018. <a href="#">Modificado</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Rangel Turrubiates</a>
+						&copy; 2019. <a href="#">Edit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Rangel Turrubiates</a>
 					</span>
 
 					<ul class="navbar-nav ml-lg-auto">

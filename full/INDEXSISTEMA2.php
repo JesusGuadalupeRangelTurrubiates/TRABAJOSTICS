@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Sistema de prueba - Rangel Turrubiates - UPV</title>
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
@@ -456,13 +456,6 @@
 								<li class="nav-item"><a href="EMPRESALISTADO.html" class="nav-link active">Listado</a></li>
 								
 								<li class="nav-item"><a href="EMPRESAEDITAR.html" class="nav-link">Editar</a></li>
-
-						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
-							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Transporte</span></a>
-							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								
-								
-								<li class="nav-item"><a href="TRANSPORTE.HTML" class="nav-link">Editar</a></li>
 
 
 
